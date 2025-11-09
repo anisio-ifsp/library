@@ -27,8 +27,6 @@ public class Loan {
     @Column(name = "book_id")
     private Long bookId;
 
-    //    @ManyToOne(fetch = FetchType.LAZY)
-//    @JoinColumn(name = "user_id", nullable = false)
     @Column(name = "user_id")
     private Long userId;
 }

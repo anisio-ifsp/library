@@ -18,6 +18,5 @@ public class Subject {
     private Long id;
     private String course;
     private Long professorId;
-//    @ManyToMany(mappedBy = "subjectsList", fetch = FetchType.LAZY)
-//    private List<Professor> professorList = new ArrayList<>();
+
 }
