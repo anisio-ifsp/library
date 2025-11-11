@@ -1,32 +1,45 @@
-# Getting Started
+# project library - Qualidade de Software
 
-### Reference Documentation
+**Disciplina:** Qualidade de Software  
+**Professor:** Anisio Silva  
+**E-mail:** [anisio.silva@ifsp.du.br](mailto:anisio.silva@ifsp.du.br)
 
-For further reference, please consider the following sections:
+---
 
-* [Official Apache Maven documentation](https://maven.apache.org/guides/index.html)
-* [Spring Boot Maven Plugin Reference Guide](https://docs.spring.io/spring-boot/3.5.7/maven-plugin)
-* [Create an OCI image](https://docs.spring.io/spring-boot/3.5.7/maven-plugin/build-image.html)
-* [Spring Security](https://docs.spring.io/spring-boot/3.5.7/reference/web/spring-security.html)
-* [Spring Web](https://docs.spring.io/spring-boot/3.5.7/reference/web/servlet.html)
+## 1. Descrição
 
-### Guides
+Projeto de revisão de conceitos de **S.O.L.I.D** utilizando **MySQL Database**.  
 
-The following guides illustrate how to use some features concretely:
+---
+## 2. Tecnologias
 
-* [Accessing data with MySQL](https://spring.io/guides/gs/accessing-data-mysql/)
-* [Securing a Web Application](https://spring.io/guides/gs/securing-web/)
-* [Spring Boot and OAuth2](https://spring.io/guides/tutorials/spring-boot-oauth2/)
-* [Authenticating a User with LDAP](https://spring.io/guides/gs/authenticating-ldap/)
-* [Building a RESTful Web Service](https://spring.io/guides/gs/rest-service/)
-* [Serving Web Content with Spring MVC](https://spring.io/guides/gs/serving-web-content/)
-* [Building REST services with Spring](https://spring.io/guides/tutorials/rest/)
+* Java 17+
+* Spring Boot 3+
+* Spring Data JPA
+* MySQl
+* Swagger/OpenAPI
+* Maven
 
-### Maven Parent overrides
+---
 
-Due to Maven's design, elements are inherited from the parent POM to the project POM.
-While most of the inheritance is fine, it also inherits unwanted elements like `<license>` and `<developers>` from the
-parent.
-To prevent this, the project POM contains empty overrides for these elements.
-If you manually switch to a different parent and actually want the inheritance, you need to remove those overrides.
+## 3. Endpoints
 
+* **Swagger UI:**  
+  [http://localhost:8080/library/swagger-ui/index.html#/](http://localhost:8080/demo/v1/swagger-ui/index.html#/)
+
+
+
+---
+
+## 4. Como Rodar o Projeto
+
+1.  Abra o projeto no IDE de sua preferência (Eclipse, IntelliJ, VS Code).
+2.  Execute a aplicação pelo terminal da IDE ou diretamente no terminal do projeto:
+
+    ```bash
+    mvn spring-boot:run
+    ```
+
+3.  Teste os endpoints via **Swagger UI** ou usando ferramentas como **Postman** ou **curl**.
+
+---
